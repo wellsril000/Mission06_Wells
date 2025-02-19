@@ -1,0 +1,44 @@
+@* This is the model that is used to create an instance of a new movie and hold the information for each variable*@
+@model NewMovie 
+
+<h2>Add a movie to the collection</h2>
+
+<form method="post">
+    <label asp-for="category">Movie Category: </label>
+    <input asp-for="category">
+    <br>
+    <label asp-for="title">Movie Title: </label>
+    <input asp-for="title" type="text">
+    <br>
+    <label asp-for="Year">Movie Year: </label>
+    <input asp-for="Year" type="text">
+    <br>
+    <label asp-for="Director">Movie Director: </label>
+    <input asp-for="Director" type="text">
+    <br>
+    <label asp-for="Rating">Movie Rating: </label>
+    <select asp-for="Rating">
+        <option value="1">G</option>
+        <option value="2">PG</option>
+        <option value="3">PG-13</option>
+        <option value="4">R</option>
+        <option value="5">NR</option>
+    </select>
+    <br>
+    <label asp-for="Edited">Was the movie edited? </label>
+    <select asp-for="Edited">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+    <br>
+    <label asp-for="LentTo">Movie lent to: </label>
+    <input asp-for="LentTo" type="text">
+    <br>
+    <label asp-for="Notes">Notes: </label>
+    <input asp-for="Notes" type="text">
+    <br>
+
+    <br>
+    <button type="Submit" class="btn-info">Add Movie</button>
+
+</form>

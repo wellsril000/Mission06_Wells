@@ -6,11 +6,10 @@ namespace Mission06_Wells.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private MovieCollectionContext _context; // this creates a more permanent variable 
+    public HomeController(MovieCollectionContext movieName) //Constructor
     {
-        _logger = logger;
+        _context = movieName;
     }
 
     public IActionResult Index()
@@ -18,14 +17,30 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult GetToKnowJoel()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [HttpGet]
+    public IActionResult AddMovie()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
     }
+
+    public IActionResult Confirmation()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult AddMovie(NewMovie newMovie)
+    {
+        _context.Movies.Add(newMovie); // This adds the new movie record to the database 
+        _context.SaveChanges();
+        return View("Confirmation", newMovie);
+        
+    }
+
 }
+   
