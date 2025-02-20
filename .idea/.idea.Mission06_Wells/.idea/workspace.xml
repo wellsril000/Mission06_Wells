@@ -8,22 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82a4b851-1b77-4a2f-b846-74ab12fc2fa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mission06_Wells/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Models/MovieCollectionContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Models/MovieCollectionContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Models/NewMovie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Models/NewMovie.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Confirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Confirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/appsettings.json" afterDir="false" />
+    <list default="true" id="82a4b851-1b77-4a2f-b846-74ab12fc2fa1" name="Changes" comment="Final Commit">
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +123,7 @@
       <workItem from="1739918932059" duration="10115000" />
       <workItem from="1739941612849" duration="625000" />
       <workItem from="1739983704360" duration="7229000" />
-      <workItem from="1740002219089" duration="23151000" />
+      <workItem from="1740002219089" duration="23453000" />
     </task>
     <task id="LOCAL-00001" summary="my 2nd changes">
       <option name="closed" value="true" />
@@ -162,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739984726297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final Commit">
+      <option name="closed" value="true" />
+      <created>1740087168253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740087168253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +208,8 @@
     <MESSAGE value="my 2nd changes" />
     <MESSAGE value="I should have commited a while ago." />
     <MESSAGE value="Adding a table to show movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a table to show movies" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
