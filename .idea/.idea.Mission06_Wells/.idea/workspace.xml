@@ -9,10 +9,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82a4b851-1b77-4a2f-b846-74ab12fc2fa1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mission06_Wells/Models/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Delete.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/GetToKnowJoel.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/GetToKnowJoel.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Models/MovieCollectionContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Models/MovieCollectionContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Models/NewMovie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Models/NewMovie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Confirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/Confirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +51,20 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/wellsril000/Mission06_Wells.git&quot;,
     &quot;accountId&quot;: &quot;ebacc409-1015-4944-a84f-c46b8b6a3036&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;wellsril000&quot;,
+    &quot;repository&quot;: &quot;Mission06_Wells&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e01ee8fbc5444d019effe36e25ebf29bc65000/c6/6999ea47/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -56,21 +78,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Mission06_Wells: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Mission07__Wells&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Mission06_Wells: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#1 on Mission07__Wells",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Mission06_Wells: http">
     <configuration name="Mission06_Wells: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Mission06_Wells/Mission06_Wells.csproj" />
@@ -113,7 +135,8 @@
       <updated>1739918930863</updated>
       <workItem from="1739918932059" duration="10115000" />
       <workItem from="1739941612849" duration="625000" />
-      <workItem from="1739983704360" duration="643000" />
+      <workItem from="1739983704360" duration="7229000" />
+      <workItem from="1740002219089" duration="23151000" />
     </task>
     <task id="LOCAL-00001" summary="my 2nd changes">
       <option name="closed" value="true" />
@@ -131,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739941640392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding a table to show movies">
+      <option name="closed" value="true" />
+      <created>1739984726297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739984726297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,11 +171,38 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Mission07_Wells" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -154,7 +212,32 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="my 2nd changes" />
     <MESSAGE value="I should have commited a while ago." />
-    <option name="LAST_COMMIT_MESSAGE" value="I should have commited a while ago." />
+    <MESSAGE value="Adding a table to show movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a table to show movies" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Mission06_Wells/Controllers/HomeController.cs" containingFunctionPresentation="Method 'AddMovie'">
+            <startOffsets>
+              <option value="793" />
+            </startOffsets>
+            <endOffsets>
+              <option value="794" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Mission06_Wells.Models.NewMovie" memberName="Category" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
