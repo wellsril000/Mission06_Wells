@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission06_Wells")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15e09526ba757b514eb6dfd60ff456bded851fe4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82045dc7787470214024fbfb73fd832de03ed8a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission06_Wells")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission06_Wells")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
