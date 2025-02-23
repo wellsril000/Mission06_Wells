@@ -8,7 +8,18 @@ public class MovieCollectionContext: DbContext // inherit from DbContext
     {
         
     } 
-    
     public DbSet<NewMovie> Movies { get; set; }
+   
+    public DbSet<Category> Categories { get; set; }
+    
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.Entity<Category>().HasData(
+    //         new Category { CategoryId = 1, CategoryName = "Horror" }
+    //     );
+    // }
+
+  
+    
     
 }

@@ -1,44 +1,79 @@
 @* This is the model that is used to create an instance of a new movie and hold the information for each variable*@
 @model NewMovie 
 
+@* This page allows the user to add a movie *@
 <h2>Add a movie to the collection</h2>
 
 <form method="post">
-    <label asp-for="category">Movie Category: </label>
-    <input asp-for="category">
+    <input asp-for="MovieId" type=hidden>
+    
+    
+    <label asp-for="CategoryId">Movie Category: </label>
+    <select asp-for="CategoryId">
+        @foreach (Category c in ViewBag.categories)
+        {
+            <option value="@c.CategoryId">@c.CategoryName</option>
+        }
+    </select>
     <br>
+
     <label asp-for="title">Movie Title: </label>
     <input asp-for="title" type="text">
+    <span asp-validation-for="title" class="text-danger"></span>
     <br>
+
     <label asp-for="Year">Movie Year: </label>
     <input asp-for="Year" type="text">
+    <span asp-validation-for="Year" class="text-danger"></span>
     <br>
+
     <label asp-for="Director">Movie Director: </label>
     <input asp-for="Director" type="text">
     <br>
+
     <label asp-for="Rating">Movie Rating: </label>
     <select asp-for="Rating">
-        <option value="1">G</option>
-        <option value="2">PG</option>
-        <option value="3">PG-13</option>
-        <option value="4">R</option>
-        <option value="5">NR</option>
+        <option value="G">G</option>
+        <option value="PG">PG</option>
+        <option value="PG-13">PG-13</option>
+        <option value="R">R</option>
+        <option value="NR">NR</option>
     </select>
     <br>
+
     <label asp-for="Edited">Was the movie edited? </label>
-    <select asp-for="Edited">
-        <option value="1">Yes</option>
-        <option value="0">No</option>
-    </select>
+    <label asp-for="Edited">
+        <input type="radio" asp-for="Edited" value="1"> Yes
+    </label>
+
+    <label asp-for="Edited">
+        <input type="radio" asp-for="Edited" value="0"> No
+    </label>
+    <span asp-validation-for="Edited" class="text-danger"></span>
     <br>
+
     <label asp-for="LentTo">Movie lent to: </label>
     <input asp-for="LentTo" type="text">
+    <br>
+
+    <label asp-for="CopiedToPlex">Copied to Plex?</label><br/>
+    <label asp-for="CopiedToPlex">
+        <input type="radio" asp-for="CopiedToPlex" value="1"> Yes
+    </label>
+
+    <label asp-for="CopiedToPlex">
+        <input type="radio" asp-for="CopiedToPlex" value="0"> No
+    </label>
+    <span asp-validation-for="CopiedToPlex" class="text-danger"></span>
+
     <br>
     <label asp-for="Notes">Notes: </label>
     <input asp-for="Notes" type="text">
     <br>
 
     <br>
-    <button type="Submit" class="btn-info">Add Movie</button>
-
+    <button type="Submit" class="btn-info">Submit Movie</button>
+    
+    <div asp-validation-summary="All"></div>
+    
 </form>
