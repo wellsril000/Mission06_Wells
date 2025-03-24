@@ -1,0 +1,15 @@
+@model NewMovie
+
+<h2>Confirm Deletion</h2>
+
+<h3>Would you like to delete @Model.title?</h3>
+<br>
+
+<form method="post">
+    
+    @* This will get the id to delete *@
+    <input type="hidden" asp-for="MovieId">
+    <button class="btn btn-danger" type="submit">Delete</button>
+    <a class="btn btn-info" asp-controller="Home" asp-action="MovieList">Cancel</a>
+
+</form> 

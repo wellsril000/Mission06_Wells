@@ -1,0 +1,44 @@
+@model List<NewMovie>
+
+<table class="table table-bordered">
+    @* These are column names *@
+    <thead  class="fw-bold">
+        <tr>
+            <td>Category</td>
+            <td>Title</td>
+            <td>Year</td>
+            <td>Director</td>
+            <td>Rating</td>
+            <td>Edited</td>
+            <td>Lent To</td>
+            <td>Copied To Plex</td>
+            <td>Notes</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+    </thead>
+    <tbody>
+
+    @* This is what goes in the rows under the column names *@
+    @foreach (var movie in Model)
+    {
+        <tr>
+            @* This gets the category name insteaad of the category id *@
+            <td>@movie.Category?.CategoryName</td>
+            <td>@movie.title</td>
+            <td>@movie.Year</td>
+            <td>@movie.Director</td>
+            <td>@movie.Rating</td>
+            <td>@movie.Edited</td>
+            <td>@movie.LentTo</td>
+            <td>@movie.CopiedToPlex</td>
+            <td>@movie.Notes</td>
+
+            @* these routes use the id to grab the right data *@
+            <td><a class="btn btn-info" asp-controller="Home" asp-action="Edit" asp-route-id="@movie.MovieId">Edit</a></td>
+            <td><a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-id="@movie.MovieId">Delete</a></td>
+        </tr>
+    }
+    
+    </tbody>
+</table>
