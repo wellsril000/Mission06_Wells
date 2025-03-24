@@ -10,9 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="82a4b851-1b77-4a2f-b846-74ab12fc2fa1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mission06_Wells/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/AddMovie.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/Views/Home/MovieList.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Debug/net8.0/Mission06_Wells.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/Mission06_Wells.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/Mission06_Wells.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mission06_Wells/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/rileywells/Documents/IS_413/Mission06_Wells/Mission06_Wells/Views/Home/MovieList.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e01ee8fbc5444d019effe36e25ebf29bc65000/c6/6999ea47/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -128,6 +132,18 @@
       <workItem from="1740002219089" duration="23739000" />
       <workItem from="1740166666899" duration="1404000" />
       <workItem from="1740288711822" duration="128000" />
+      <workItem from="1740288845315" duration="550000" />
+      <workItem from="1740416585659" duration="2912000" />
+      <workItem from="1740590405813" duration="2374000" />
+      <workItem from="1740761025275" duration="5452000" />
+      <workItem from="1740794017727" duration="2299000" />
+      <workItem from="1741041624987" duration="11734000" />
+      <workItem from="1741226128649" duration="4183000" />
+      <workItem from="1742581650107" duration="317000" />
+      <workItem from="1742582163968" duration="365000" />
+      <workItem from="1742824999803" duration="550000" />
+      <workItem from="1742830262709" duration="1655000" />
+      <workItem from="1742833031144" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="my 2nd changes">
       <option name="closed" value="true" />
@@ -169,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740087540538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updating validation">
+      <option name="closed" value="true" />
+      <created>1740288873231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740288873231</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +246,8 @@
     <MESSAGE value="Adding a table to show movies" />
     <MESSAGE value="Final Commit" />
     <MESSAGE value="Changing the data validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing the data validation" />
+    <MESSAGE value="Updating validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

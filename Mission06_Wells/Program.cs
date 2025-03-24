@@ -21,10 +21,13 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+// server static files from the wwwroot folder
+app.UseStaticFiles(); // enables static file middleware
 
+// set up the routing middleware
 app.UseRouting();
 
+// Other middleware (e.g., static files, authentication)
 app.UseAuthorization();
 
 app.MapControllerRoute( 
